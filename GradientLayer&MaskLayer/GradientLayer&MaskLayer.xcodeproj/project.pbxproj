@@ -13,6 +13,7 @@
 		840ABC681DABA545000EB5B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840ABC661DABA545000EB5B1 /* Main.storyboard */; };
 		840ABC6A1DABA545000EB5B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 840ABC691DABA545000EB5B1 /* Assets.xcassets */; };
 		840ABC6D1DABA545000EB5B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840ABC6B1DABA545000EB5B1 /* LaunchScreen.storyboard */; };
+		84FDE6361DACD169001F9E90 /* LTGradientProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FDE6351DACD169001F9E90 /* LTGradientProgressView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		840ABC691DABA545000EB5B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		840ABC6C1DABA545000EB5B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		840ABC6E1DABA545000EB5B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84FDE6341DACD169001F9E90 /* LTGradientProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTGradientProgressView.h; sourceTree = "<group>"; };
+		84FDE6351DACD169001F9E90 /* LTGradientProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTGradientProgressView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		840ABC5C1DABA545000EB5B1 /* GradientLayer&MaskLayer */ = {
 			isa = PBXGroup;
 			children = (
+				84FDE6331DACD151001F9E90 /* GradientView */,
 				840ABC601DABA545000EB5B1 /* AppDelegate.h */,
 				840ABC611DABA545000EB5B1 /* AppDelegate.m */,
 				840ABC631DABA545000EB5B1 /* ViewController.h */,
@@ -77,6 +81,15 @@
 				840ABC5E1DABA545000EB5B1 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84FDE6331DACD151001F9E90 /* GradientView */ = {
+			isa = PBXGroup;
+			children = (
+				84FDE6341DACD169001F9E90 /* LTGradientProgressView.h */,
+				84FDE6351DACD169001F9E90 /* LTGradientProgressView.m */,
+			);
+			name = GradientView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				840ABC651DABA545000EB5B1 /* ViewController.m in Sources */,
+				84FDE6361DACD169001F9E90 /* LTGradientProgressView.m in Sources */,
 				840ABC621DABA545000EB5B1 /* AppDelegate.m in Sources */,
 				840ABC5F1DABA545000EB5B1 /* main.m in Sources */,
 			);
@@ -312,6 +326,7 @@
 				840ABC731DABA545000EB5B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
